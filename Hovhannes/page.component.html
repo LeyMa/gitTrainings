@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Error</title>
+  <base href="/">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <style>
+      .sis-404-container {
+        height: 100vh;
+        background: #f7f7f7;
+      }
+      
+      .sis-404-box {
+        width: 790px;
+        position: fixed;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      .sis-404-box .sis-404-box__text-one {
+        color: #91969b;
+        font-size: 50px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 300;
+      }
+      .sis-404-box .sis-404-box__text-two {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 12.5px;
+      }
+      .sis-404-box .sis-404-box__text-two-left {
+        display: flex;
+        flex-grow: 1;
+      }
+      .sis-404-box .sis-404-box__text-two-right {
+        display: flex;
+        align-items: center;
+      }
+      .sis-404-box .sis-404-box__text-two-right span {
+        font-size: 150px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 100;
+      }
+      .sis-404-box .sis-404-box__text-three span {
+        color: #91969b;
+        font-family: "Roboto", sans-serif;
+        font-size: 24px;
+        font-weight: 400;
+      }
+      .sis-404-box .sis-404-box__text-three button {
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        float: right;
+        color: white;
+        border-radius: 4px;
+        box-sizing: border-box;
+        font-size: small;
+        padding: 0 45px;
+        background-color: #28c76f;
+      }
+      
+      .sis-404-text {
+        width: 92%;
+        height: 60%;
+        display: flex;
+        position: relative;
+        align-self: center;
+        align-items: center;
+        box-sizing: border-box;
+        padding-left: 5px;
+      }
+      .sis-404-text span {
+        font-size: 150px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 900;
+        color: #28313b;
+      }
+      .sis-404-text .sis-404-text__line--prop {
+        height: 1px;
+        width: 30px;
+        position: absolute;
+        background-color: #c1c6ce;
+      }
+      .sis-404-text .sis-404-text__line-1 {
+        top: 0;
+        left: -15px;
+      }
+      .sis-404-text .sis-404-text__line-2 {
+        top: 0;
+        right: -15px;
+      }
+      .sis-404-text .sis-404-text__line-3 {
+        bottom: 0;
+        right: -15px;
+      }
+      .sis-404-text .sis-404-text__line-4 {
+        bottom: 0;
+        left: -15px;
+      }
+      .sis-404-text i::before {
+        content: "";
+        position: absolute;
+        display: inline-block;
+        height: 1px;
+        width: 30px;
+        background-color: #c1c6ce;
+        transform: rotate(90deg);
+      }
+      
+      .sis-404-svg {
+        width: 90px;
+        height: 125px;
+        position: relative;
+      }
+      .sis-404-svg .sis-404-svg__rotate {
+        animation: rotate 3s infinite linear;
+      }
+      @keyframes rotate {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(359deg);
+        }
+      }
+      .sis-404-svg svg {
+        position: absolute;
+      }
+      .sis-404-svg .sis-404-svg__screw {
+        animation: move 0.7s infinite linear;
+        transform: translate(0, -3px);
+      }
+      @keyframes move {
+        from {
+          transform: translate(0, -5px);
+        }
+        to {
+          transform: translate(0, 9px);
+        }
+      }
+  </style>
+</head>
+<body>
+<div class="sis-404-container">
+   <div class="sis-404-box">
+       <span class="sis-404-box__text-one">Oops!</span>
+       <div class="sis-404-box__text-two">
+            <div class="sis-404-box__text-two-left">
+                <div class="sis-404-text">
+                    <span>404</span>
+                    <i class="sis-404-text__line-1 sis-404-text__line--prop"></i>
+                    <i class="sis-404-text__line-2 sis-404-text__line--prop"></i>
+                    <i class="sis-404-text__line-3 sis-404-text__line--prop"></i>
+                    <i class="sis-404-text__line-4 sis-404-text__line--prop"></i>
+                </div>
+            </div>
+            <div class="sis-404-box__text-two-right">
+                <span>ERR</span>
+                <div class="sis-404-svg">
+                     <svg class="sis-404-svg__rotate" width="95px" height="94px" viewBox="0 0 95 94" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                         <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+                         <title>icon_gear</title>
+                         <desc>Created with Sketch.</desc>
+                         <defs></defs>
+                         <g id="icon_gear" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                             <g transform="translate(3.000000, 3.000000)" stroke-width="3">
+                                 <path d="M74.390519,58.7955686 L80.1819809,68.7390443 C80.404375,69.2370348 80.2674395,69.9579572 79.874818,70.3505788 L71.4242686,78.8011281 C71.0322331,79.1931636 70.2913257,79.3456013 69.7816418,79.1438204 L60.7600229,74.2766999 C58.8691078,75.4128898 56.8616753,76.3610366 54.761075,77.0967292 L51.8267555,87.0814378 C51.6097819,87.5887457 50.9852712,88 50.4300205,88 L38.479139,88 C37.9247171,88 37.3144917,87.5780331 37.122415,87.0678077 L34.6307811,77.4566009 C32.366989,76.7535857 30.2037317,75.8062901 28.1689664,74.6439421 L18.8197903,79.7461439 C18.307646,79.9514413 17.5752495,79.8006462 17.182628,79.4080247 L8.73207857,70.9574753 C8.34004312,70.5654399 8.20692425,69.8355696 8.43188934,69.3389671 L14.2292508,59.4838054 C13.5815222,58.1183408 13.0167934,56.7022159 12.5419606,55.2426425 L0.918562196,51.8267555 C0.411254303,51.6097819 1.42108547e-14,50.9852712 1.42108547e-14,50.4300205 L1.42108547e-14,38.479139 C1.42108547e-14,37.9247171 0.421966941,37.3144917 0.932192288,37.122415 L12.0983103,34.2276819 C12.6755252,32.1549163 13.4317009,30.1618424 14.3481861,28.2679608 L8.86075262,18.2128938 C8.65545526,17.7007494 8.80625031,16.9683529 9.19887186,16.5757314 L17.6494212,8.12518202 C18.0414567,7.73314657 18.7713269,7.6000277 19.2679294,7.82499279 L28.424667,13.2115018 C30.3692024,12.1236323 32.4288081,11.231222 34.579464,10.5593827 L37.122415,0.92232994 C37.3172911,0.41294118 37.9238883,0 38.479139,0 L50.4300205,0 C50.9844424,0 51.6161328,0.416110989 51.833853,0.919192544 L54.8273265,10.9265553 C56.8106288,11.6260383 58.7104901,12.5150284 60.5072174,13.5729275 L69.3459408,8.42491561 C69.8439313,8.20252158 70.5648538,8.33945703 70.9574753,8.73207857 L79.4080247,17.182628 C79.8000602,17.5746634 79.9524978,18.3155709 79.7507169,18.8252547 L74.2812981,28.9632845 C75.0557114,30.656258 75.7034199,32.4246884 76.2115892,34.2551576 L87.0776701,37.122415 C87.5870588,37.3172911 88,37.9238883 88,38.479139 L88,50.4300205 C88,50.9844424 87.583889,51.6161328 87.0808075,51.833853 L75.768407,55.2176987 C75.3710172,56.4422775 74.9103653,57.6363172 74.390519,58.7955686 Z" id="Combined-Shape" stroke="#172B4D" stroke-linecap="square"></path>
+                                 <circle id="Oval" stroke="#6B778C" cx="44" cy="44" r="19"></circle>
+                                 <circle id="Oval-15" stroke="#172B4D" cx="44" cy="44" r="6"></circle>
+                             </g>
+                         </g>
+                     </svg>
+                     <svg width="95px" height="120px" viewBox="0 0 95 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                         <g id="icon_gear" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                             <g transform="translate(3.000000, 3.000000)" stroke-width="3">
+                                  <polygon id="Rectangle-14" stroke="#172B4D" stroke-linecap="round" stroke-linejoin="round" points="8.36757233 103 50 103 50 107 8.36757233 107 4 105"></polygon>
+                                  <path d="M80.6923077,113 L57.3076923,113 L57.3076923,113 C52.9940125,112.789917 50,109.289143 50,105 C50,100.710857 52.9940125,97.2100833 57.3076923,97 L57.3076923,97 L80.6923077,97 C84.8743523,97.058196 88,100.617583 88,105 C88,109.382417 84.8743523,112.941804 80.6923077,113 L80.6923077,113 Z" id="Combined-Shape" stroke="#172B4D"></path>
+                                  <path class="sis-404-svg__screw" d="M59,102.5 L79,102.5" id="Path-20" stroke="#6B778C" stroke-linecap="round" stroke-linejoin="round"></path>
+                             </g>
+                         </g>
+                     </svg>
+                </div>
+                <span>R</span>
+            </div>
+       </div>
+       <div class="sis-404-box__text-three">
+            <span>We can't seem to find the page you're looking for.</span>
+            <button mat-flat-button>Go Home</button>
+       </div>
+   </div>
+</div>
+
+
+</body>
+</html>
